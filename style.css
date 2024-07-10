@@ -509,3 +509,73 @@ body {
     font-weight: 700
 }
 
+/* Support section stard here */
+
+.support-container{
+    width: 1140px;
+    height: 313px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-image: url("./assets/handshake.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+
+
+
+}
+
+.support-content h2{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.support-content p{
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-bottom: 25px;
+
+}
+
+.support-btn input {
+    width: 548px;
+    height: 57px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
+
+::placeholder {
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 12px;
+    font-weight: 400;
+    padding: 19px 20px 19px 20px;
+    margin-left: 15px;
+    border: none;
+  
+}
+
+.support-btn button{
+    width: 120px;
+    height: 57px;
+    border: none;
+    font-weight: bold;
+    background-color:white;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer section stard here */
