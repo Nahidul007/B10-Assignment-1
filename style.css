@@ -212,6 +212,47 @@ body {
 
 /* Inspiration Section stard here */
 
+.inspiration-section{
+    width: 1140px;
+    height: 650px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
 
+.inspiration-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inspiration-text h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.inspiration-text p{
+    color: rgb(13, 19, 33);
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.7;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.outsidevideo{
+    width: 1140px;
+    height: 614px;
+    margin-top: 40px;
+    margin-left: 34px;
+    
+}
+
+.outside{
+    border-radius: 14px;
+}
 
 
