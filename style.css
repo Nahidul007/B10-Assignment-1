@@ -35,7 +35,7 @@ body {
 
 .banner-container {
     max-width: 1440px;
-    height: 652px;
+    height: 600px;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -67,7 +67,6 @@ body {
 
 .banner-content h1{
     color: rgb(13, 19, 33);
-    font-family: "Azeret Mono", monospace;
     font-size: 33px;
     font-weight: 800;
     text-align: center;
@@ -77,7 +76,6 @@ body {
 
 .banner-content p{
     color: rgb(13, 19, 33);
-    font-family: "Azeret Mono", monospace;
     font-size: 12px;
     font-weight: 400;
     text-align: center;
@@ -93,5 +91,127 @@ body {
     border: none;
     padding: 10px 15px;
 }
-    
+
+/* web development section stard  */
+.devlopment-container{
+    max-width: 1140px;
+    height: 1020px;
+    background-color:rgba(13, 19, 33, 0.02);;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+
+.dev-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.dev-text h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.dev-text p{
+    color: rgb(13, 19, 33);
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 18px;
+
+}
+
+
+.first-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.content-text h2{
+    color: #0D1321B3;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.content-text p{
+    color: rgb(13, 19, 33);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    opacity: 0.7;
+    margin-bottom: 20px;
+
+}
+
+.content-text button{
+    background-color: #FCFCFD;
+    color: #0D1321;
+    padding: 8px 20px;
+    border-radius: 3px;
+}
+
+.first-content img{
+    width: 259.56px;
+    height: 217.01px;
+    margin-top:30px;
+    margin-right: 70px;
+}
+
+
+.second-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.second-content img {
+    width: 223.2px;
+    height: 208.85px;
+}
+
+.content-text2{
+    margin-right: 150px;
+}
+
+.content-text2 h2{
+    color: #0D1321B3;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.content-text2 p{
+    color: rgb(13, 19, 33);
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.7;
+    line-height: 20px;
+    margin-top: 20px;
+} 
+
+.content-text2 button{
+    background-color:#FCFCFD;
+    color: #0D1321;
+    padding: 8px 20px;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+
+/* Inspiration Section stard here */
+
+
+
 
