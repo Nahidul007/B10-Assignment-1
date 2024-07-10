@@ -217,6 +217,7 @@ body {
     height: 650px;
     margin: 0 auto;
     margin-top: 70px;
+    margin-bottom: 55px;
 }
 
 .inspiration-text{
@@ -253,6 +254,94 @@ body {
 
 .outside{
     border-radius: 14px;
+}
+
+/* Target section stard here */
+.target-container{
+    width: 1140px;
+    height: 420px;
+    margin: 0 auto;
+}
+.target-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.target-text h1{
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.target-text p{
+    color: #0D1321;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 15px;
+    margin-bottom: 45px;
+
+}
+
+.target-image{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.target-image img{
+    width: 35.56px;
+    height: 34.14px;
+    margin-bottom: 10px;
+}
+
+.target-image h2{
+    color: rgb(13, 19, 33);
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.target-image p{
+    color: rgb(13, 19, 33);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    opacity: 0.7;
+    margin-bottom: 10px;
+
+
+}
+
+.target-image a{
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.color-bg1{
+    background-color:#FFF6F4;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.color-bg2{
+    background-color: #F2F6FE;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.color-bg3{
+    background-color: #FFFDF2;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 5px;
 }
 
 
